@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                         textView.setText("こんばんは")
                     else if (hour<=9)
                         textView.setText("おはよう")
-                    else if (hour<=18)
+                    else if (hour<=17)
                         textView.setText("こんにちは")
                     else if (hour<=24)
                         textView.setText("こんばんは")
